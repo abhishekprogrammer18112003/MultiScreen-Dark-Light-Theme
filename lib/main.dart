@@ -3,6 +3,8 @@ import 'package:learningflutter/provide.dart';
 import 'package:learningflutter/themechange.dart';
 import 'package:provider/provider.dart';
 
+import 'stlwidget.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget {
               primarySwatch: Colors.blue,
             ),
             darkTheme: ThemeData(brightness: Brightness.dark),
-            home: const Themechange(),
+            home: stlasstf(),
           );
         }));
   }

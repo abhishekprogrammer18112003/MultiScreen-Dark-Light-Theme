@@ -46,7 +46,7 @@ class _ThemechangeState extends State<Themechange> {
             color: Colors.red,
             height: 30,
             width: 300,
-            child: Center(child: Text('click')),
+            child: const Center(child: Text('click')),
           ),
         )
       ]),
